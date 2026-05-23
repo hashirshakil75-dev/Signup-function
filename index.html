@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup page</title>
+</head>
+<body>
+  <!-- Signup Form Container -->
+   <h2>Create an Account</h2>
+    <form id="signupForm">
+
+        <!-- Email Field -->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+        </div>
+
+        <!-- Password Field -->
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+        </div>
+
+        <!-- Confirm Password Field -->
+        <div>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" required>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" onclick="handleSignup()">Sign Up</button>
+    </form>
+    <script src="signup.js"></script>
+</body>
+</html>
