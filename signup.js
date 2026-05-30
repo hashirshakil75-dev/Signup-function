@@ -18,7 +18,7 @@ const handleSignup = (event) => {
    }
 
    const userdata = {email: email, password: password}
-   localStorage.setItem("Hashir-user", JSON.stringify(userdata));
+       localStorage.setItem("Hashir-user", JSON.stringify(userdata));
 }
 
 document.getElementById("signupForm").addEventListener("submit", handleSignup)
